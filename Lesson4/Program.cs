@@ -16,9 +16,9 @@ Console.WriteLine($"{degree(numberA,numberB)}");*/
 
 
 
-/*// Задача № 27. Программа принимает число и выдает сумму цифр в числе.
+// Задача № 27. Программа принимает число и выдает сумму цифр в числе.
 
-int Sum(int number);
+int Sum(int number)
 {
     int sum = 0;
     while (number > 0)
@@ -30,10 +30,10 @@ int Sum(int number);
 }
 Console.WriteLine("Введите число: ");
 int number = Convert.ToInt32(Console.ReadLine());
-Console.WriteLine($"Сумма чисел в числе {number} = {Sum(number)}");*/
+Console.WriteLine($"Сумма чисел в числе {number} = {Sum(number)}");
 
 
-// Задача 29. Программа задает массив из m  элементов, генерируемый пользователем.
+/*// Задача 29. Программа задает массив из m  элементов, генерируемый пользователем.
  int[] CreatArray(int size)
 {
     int[] array = new int[size];
@@ -59,3 +59,4 @@ Console.Write("Введите длину массива: ");
 int a = Convert.ToInt32(Console.ReadLine());
 int[] myArray = CreatArray(a);
 ShowArray(myArray);
+*/
